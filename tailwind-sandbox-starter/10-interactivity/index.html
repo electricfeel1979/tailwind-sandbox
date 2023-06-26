@@ -8,24 +8,101 @@
     <title>Interactivity</title>
   </head>
   <body>
+    <a href="#item">Scroll To Item</a>
     <!-- Hover State Styling -->
+    <button 
+      type="button" 
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-black">
+      Submit
+    </button>
 
     <!-- Focus State Styling -->
+    <button 
+      type="button" 
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-black">
+      Submit
+    </button>
 
     <!-- Active State Styling -->
+    <button 
+      type="button" 
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-yello-500 active:text-black">
+        Submit
+    </button>
 
     <!-- Styling based on parent state -->
+    <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+      <div class="flex items-center">
+        <h3 class="group-hover:text-white">Card Title</h3>
+      </div>
+      <p class="group-hover:text-white">This is some card text</p>
+    </a>
+
+    <br>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 1</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 2</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 3</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 4</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 5</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 6</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 7</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 8</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 9</li>
+      <li class="even:bg-green-200 odd:bg-blue-200">Item 10</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+
+    <select class="appearance-none">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
 
     <!-- Cursor -->
+    <button type="button" class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer">
+      Submit
+    </button>
+
+    <button type="button" class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-progress">
+      Loading...
+    </button>
+
+    <button type="button" class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed">
+      Confirm
+    </button>
 
     <!-- Resize -->
+    <textarea class="border border-black rounded resize"></textarea>
 
     <!-- User Select -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores iste necessitatibus in debitis doloremque magni itaque facilis vitae fugit odio accusamus, corrupti, sit, impedit dignissimos maiores dolorem rerum! Facilis, quae quos sint quibusdam quis fugiat dicta sapiente aliquid exercitationem pariatur dolore nemo architecto quia perspiciatis. Ad, sit architecto? Magnam nesciunt in ipsa ratione cupiditate, provident consequatur facilis perferendis tempore eveniet nostrum dolorum tempora debitis vel fugit consectetur voluptas ut neque eius? Quaerat corrupti ab consequatur, quia accusamus, consectetur at sunt repudiandae nam velit exercitationem reiciendis non dolores. Natus ipsum similique consectetur illum, saepe fuga tempore ullam laboriosam nemo dolores.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores iste necessitatibus in debitis doloremque magni itaque facilis vitae fugit odio accusamus, corrupti, sit, impedit dignissimos maiores dolorem rerum! Facilis, quae quos sint quibusdam quis fugiat dicta sapiente aliquid exercitationem pariatur dolore nemo architecto quia perspiciatis. Ad, sit architecto? Magnam nesciunt in ipsa ratione cupiditate, provident consequatur facilis perferendis tempore eveniet nostrum dolorum tempora debitis vel fugit consectetur voluptas ut neque eius? Quaerat corrupti ab consequatur, quia accusamus, consectetur at sunt repudiandae nam velit exercitationem reiciendis non dolores. Natus ipsum similique consectetur illum, saepe fuga tempore ullam laboriosam nemo dolores.
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores iste necessitatibus in debitis doloremque magni itaque facilis vitae fugit odio accusamus, corrupti, sit, impedit dignissimos maiores dolorem rerum! Facilis, quae quos sint quibusdam quis fugiat dicta sapiente aliquid exercitationem pariatur dolore nemo architecto quia perspiciatis. Ad, sit architecto? Magnam nesciunt in ipsa ratione cupiditate, provident consequatur facilis perferendis tempore eveniet nostrum dolorum tempora debitis vel fugit consectetur voluptas ut neque eius? Quaerat corrupti ab consequatur, quia accusamus, consectetur at sunt repudiandae nam velit exercitationem reiciendis non dolores. Natus ipsum similique consectetur illum, saepe fuga tempore ullam laboriosam nemo dolores.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores iste necessitatibus in debitis doloremque magni itaque facilis vitae fugit odio accusamus, corrupti, sit, impedit dignissimos maiores dolorem rerum! Facilis, quae quos sint quibusdam quis fugiat dicta sapiente aliquid exercitationem pariatur dolore nemo architecto quia perspiciatis. Ad, sit architecto? Magnam nesciunt in ipsa ratione cupiditate, provident consequatur facilis perferendis tempore eveniet nostrum dolorum tempora debitis vel fugit consectetur voluptas ut neque eius? Quaerat corrupti ab consequatur, quia accusamus, consectetur at sunt repudiandae nam velit exercitationem reiciendis non dolores. Natus ipsum similique consectetur illum, saepe fuga tempore ullam laboriosam nemo dolores.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores iste necessitatibus in debitis doloremque magni itaque facilis vitae fugit odio accusamus, corrupti, sit, impedit dignissimos maiores dolorem rerum! Facilis, quae quos sint quibusdam quis fugiat dicta sapiente aliquid exercitationem pariatur dolore nemo architecto quia perspiciatis. Ad, sit architecto? Magnam nesciunt in ipsa ratione cupiditate, provident consequatur facilis perferendis tempore eveniet nostrum dolorum tempora debitis vel fugit consectetur voluptas ut neque eius? Quaerat corrupti ab consequatur, quia accusamus, consectetur at sunt repudiandae nam velit exercitationem reiciendis non dolores. Natus ipsum similique consectetur illum, saepe fuga tempore ullam laboriosam nemo dolores.
+
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam natus sit animi provident ullam quam maiores debitis molestias, autem cumque iste placeat minus fuga. Unde at debitis quos similique magnam eaque facilis ad magni expedita quisquam error ipsa, laboriosam optio cupiditate, earum corrupti ipsum harum. Nostrum, non! Culpa, libero ad.
+    </p>
+
+    <div id="item">Item</div>
 
     <!-- Smooth Scroll Example -->
   </body>
